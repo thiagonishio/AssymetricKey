@@ -61,6 +61,7 @@ mMT2I3fzTLJ+kLBmm2Lf0IWX9fG/K333Qmb87vSimHkLa0wq+lbdqz+Shx7opI6j
 eZk3fadfxRgxZlyNczio7knBD6GUZuMabrXC3dL+keb+BUiaOcJ64eZpLajKdx5h
 rQIDAQAB
 -----END PUBLIC KEY-----";
+        /*
         const string PRIVATKEY = @"-----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEAuBguvZ1eFy+JDkaW3qjVDJA7TEkk+MCgCT9eQuHUGteA9LJj
 HYCBWqWFm5mYQEbak47hVAb+S/XDv8dSZys7X8UthQbAJBhq7vaCue66sfXbrkcp
@@ -88,6 +89,9 @@ z9YlAoGBANp3O5iOZrMLM6pmUBqovxBgGVgjyOYqdqFDKlPY4ipuRGbXqj5X1nSE
 mjh+gAzaey9xiZdq53BEHTPWIhfmbEyuJjfAEfHNCAATTaLwvcX94+3lIeGpBHil
 zmXWjPiqMTZEkc5dPvygrHMkf19scBnWMWRRKn/8JclpmeV5p9cg
 -----END RSA PRIVATE KEY-----";
+        */
+
+        const string PRIVATKEY = @"-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAuBguvZ1eFy+JDkaW3qjVDJA7TEkk+MCgCT9eQuHUGteA9LJj\nHYCBWqWFm5mYQEbak47hVAb+S/XDv8dSZys7X8UthQbAJBhq7vaCue66sfXbrkcp\njiKeZGBfv75zX3flbZKsA8c5rNrU6MloL6Vm5ASGD6nEMCrlPfJCIDeNPaXkJDF8\nnxRImd86HZTmbvs1kbqE3iekjKQ+w4+0eGimmMT2I3fzTLJ+kLBmm2Lf0IWX9fG/\nK333Qmb87vSimHkLa0wq+lbdqz+Shx7opI6jeZk3fadfxRgxZlyNczio7knBD6GU\nZuMabrXC3dL+keb+BUiaOcJ64eZpLajKdx5hrQIDAQABAoIBAGcBsPWL3h/fCzMf\nsD85/Kug8G0I6FT/gwxplpaZwZKbTp6cSfUx+C7+OroLwTMF8jtqUQ4xM4zRIQxn\nvOXZPMmjjIrIci5AM2UuLYtX1sLIrHjhfJD5MeM8QZcKO4gJkCg1T2Z1zQG5GDSA\nrXkrdVzUYybUeN/ywH5e1T0tmCwLeGk5Zad4yw6lwXHZMrjvk2cYWJUn9PCCufIc\nskRHYBbxx0jh/V8u38JCW88afBDKDci5W+/o9RZDFaMEGHdiWvzle+1y10unubUu\n69s0D/Fw5dLhkTXSqegxbDXUMoQdbfqGLHzWGdqL5BxV0yIQSaKv7l6XIBDu4sig\n8EADrokCgYEA7/G9fF2CWAlUGkgKLRGUoQiytBuzj48d3K1CYFvR7iBDUjatkaZY\nFAKlEBPxMw5d9jsNqM0JpPMlN/fqOQgH7giGPwl6MgSnKXeXSN21smOS9o8TizKa\n2gll97KxlbYlD7yGWHZnizAabEzNz5GvR+rbG1pzz8Qb52yTwRpzADsCgYEAxGm7\nQkALiMW023MBRkk8qa7+9y//l+Je1qrCahFS2NG9piPu2XBRLjcu/1Z9bEkHyyal\nADOq3ZNgy2MRwpsadjSm8oZLvGbyoC2AqeJ3LuahWk2Yeqw8sogKs7FOSagJwjSY\n+N7/Zr/J1AfeTVeDrsQksD1VWhB+Ak8jIeazrzcCgYB5ALYIM7f54apyHoZTOBx2\nIUbNoXKqIQh0M0PYCDYUGl0Y5s4dN4APh03qj8QBdWtZM2quB8inUJ8iXHnYDP7C\nwbXBsGvZMZODS/YVHwn0Tlbc1EaM2hZRgo/TnGAGGfcSuoYdsoiBHt8UYp8f4F4+\nrGeWocTpsAJKcO0KYuY/5QKBgDa7F7kwS4aDQRBdjZ9eTQ8jely6/Uf/hlnfH2mb\nBjDw0R34qVfh2l08d1YjbbO87fUIAbZ6r0QrCy/hnVNTER6bMWInVfdb4IQN6eps\n9rUVAyU8th6I3CkLi5/i6mPP9Vgue+ntidHB46W3w5RdrI4IjgimLqB4NATEtI9/\nz9YlAoGBANp3O5iOZrMLM6pmUBqovxBgGVgjyOYqdqFDKlPY4ipuRGbXqj5X1nSE\nmjh+gAzaey9xiZdq53BEHTPWIhfmbEyuJjfAEfHNCAATTaLwvcX94+3lIeGpBHil\nzmXWjPiqMTZEkc5dPvygrHMkf19scBnWMWRRKn/8JclpmeV5p9cg\n-----END RSA PRIVATE KEY-----";
 
         // Create a method to encrypt a text and save it to a specific file using a RSA algorithm public key   
         static void EncryptText(string publicKey, string text, string fileName)
@@ -143,7 +147,7 @@ zmXWjPiqMTZEkc5dPvygrHMkf19scBnWMWRRKn/8JclpmeV5p9cg
         public static void ImportPemPrivateKey(this RSACryptoServiceProvider csp, string pem)
         {
             csp = new RSACryptoServiceProvider(2048);
-            PemReader pr = new PemReader(new StringReader(pem));
+            PemReader pr = new PemReader(new StringReader(pem?.Replace("\\n", "\n")));
             AsymmetricCipherKeyPair KeyPair = (AsymmetricCipherKeyPair)pr.ReadObject();
             RSAParameters rsaParams = DotNetUtilities.ToRSAParameters((RsaPrivateCrtKeyParameters)KeyPair.Private);
 
@@ -158,12 +162,15 @@ zmXWjPiqMTZEkc5dPvygrHMkf19scBnWMWRRKn/8JclpmeV5p9cg
         public static void ImportPemPublicKey(this RSACryptoServiceProvider csp, string pem)
         {
             csp = new RSACryptoServiceProvider(2048);
-            PemReader pr = new PemReader(new StringReader(pem));
+            PemReader pr = new PemReader(new StringReader(pem?.Replace("\\n", "\n")));
             AsymmetricKeyParameter publicKey = (AsymmetricKeyParameter)pr.ReadObject();
             RSAParameters rsaParams = DotNetUtilities.ToRSAParameters((RsaKeyParameters)publicKey);
 
             csp.ImportParameters(rsaParams);
         }
+
+        
+
         public static string ExportPemPrivateKey(this RSACryptoServiceProvider csp)
         {
             StringWriter outputStream = new StringWriter();
